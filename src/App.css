@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/* fonts */
+
+.app{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+nav{
+  background-color: rgb(255, 212, 202);
+  padding: 10px;
+  font-family: 'Playball', cursive;
+}
+
+img{
+  width: 50%;
+  height: auto;
+}
+
+ h1,h2,p{
+  font-family: 'Playball', cursive;
+  padding: 10px;
+ }
+
+ p{
+   font-size: 20px;
+ }
+
+ h1{
+   font-size: 50px;
+ }
+
+ h2{
+   font-size: 40px;
+ }
+
+ /* pages */
+
+ .projects{
+  text-align: center;
+ }
+
+ .gallery{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  
+ }
+
+ .about{
+  text-align: center;
+}
+
+.contact{
+text-align: center;
+margin: auto;
+width: 80%;
+padding: 10px;
+}
+
+/* If screen size is 650px wide, or less, set the images to 80% */
+@media screen and (max-width: 650px) {
+    .gallery {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+   }
+    .hero{
+      width: 80%;
+   }
+    .about img{   
+      width: 80%;
+   }
+   .contact img{
+      width: 90%;
+
+   }
+  }
