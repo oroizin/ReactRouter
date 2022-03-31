@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
-/* fonts */
+/* google fonts */
 
 .app{
   background-color: rgb(255, 255, 255);
@@ -16,37 +16,37 @@ img{
   height: auto;
 }
 
- h1,h2,p{
+h1,h2,p{
   font-family: 'Playball', cursive;
   padding: 10px;
- }
+}
 
- p{
+p{
    font-size: 20px;
- }
+}
 
- h1{
+h1{
    font-size: 50px;
- }
+}
 
- h2{
+h2{
    font-size: 40px;
- }
+}
 
- /* pages */
+/* the pages */
 
- .projects{
+.projects{
   text-align: center;
- }
+}
 
- .gallery{
+.gallery{
   margin: auto;
   width: 50%;
   padding: 10px;
   
- }
+}
 
- .about{
+.about{
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ width: 80%;
 padding: 10px;
 }
 
-/* If screen size is 650px wide, or less, set the images to 80% */
+/* If screen size is 650px wide, or less, set the images to 80%-90% */
 @media screen and (max-width: 650px) {
     .gallery {
     margin: auto;

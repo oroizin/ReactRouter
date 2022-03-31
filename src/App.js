@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import"./App.css";
 
+/*The app*/
 export default function App() {
   return (
     <div className="app">
